@@ -78,7 +78,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-  color: #2a54f5;
+  color: #021e53;
   text-decoration: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -97,7 +97,7 @@ a:active {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #2a54f5;
+  color: #021e53;
 }
 
 p {
@@ -131,7 +131,7 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-  background-color: #2a54f5;
+  background-color: #021e53;
 }
 
 .btn-primary:hover,
@@ -142,17 +142,17 @@ ul {
 
 /*btn-default*/
 .btn-default {
-  color: #2a54f5;
+  color: #021e53;
   background-color: transparent;
-  border: 2px solid #2a54f5;
+  border: 2px solid #021e53;
 }
 
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active:focus {
-  background: #2a54f5;
+  background: #021e53;
   color: #ffffff;
-  border-color: #2a54f5;
+  border-color: #021e53;
 }
 
 button:focus,
@@ -247,7 +247,7 @@ button:focus,
 
 .section-title h2 {
   margin-bottom: 5px;
-  color: #bebece;
+  color: #021e53;
 }
 
 /*-----------------------------
@@ -283,8 +283,8 @@ button:focus,
   bottom: 0;
   background: linear-gradient(
     -30deg,
-    rgba(42, 84, 245, 0.5) 0%,
-    rgba(42, 84, 245, 0.5) 40%,
+    rgb(2, 30, 83) 0%,
+    rgba(2, 30, 83, 0.5) 40%,
     transparent 60%,
     transparent 100%
   );
@@ -394,7 +394,7 @@ button:focus,
 }
 
 .progress-item .progress-bar {
-  background-color: #2a54f5;
+  background-color: #021e53;
   box-shadow: none;
   text-align: right;
 }
@@ -545,7 +545,7 @@ button:focus,
  * Preloader
  * ====================*/
 #preloader {
-  background: #2a54f5;
+  background: #021e53;
   bottom: 0;
   left: 0;
   position: fixed;

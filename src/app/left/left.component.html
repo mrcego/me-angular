@@ -1,15 +1,13 @@
 <div class="left-col-block blocks">
   <header class="header">
     <div class="content text-center">
-      <h1>Hi, I'm Amelie Ebert!</h1>
-      <p class="lead">Marketing Consultant</p>
+      <h1>{{ 'left.greeting' | translate }}</h1>
+      <p class="lead">{{ 'left.role' | translate }}</p>
       <ul class="social-icon">
-        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-slack" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+        <li *ngFor="let item of social"><a target="_blank" href="{{item.url}}"><i class="fa fa-{{item.icon}}"
+              aria-hidden="true"></i></a></li>
       </ul>
+      <img src="../../assets/colombia-icon.png" width="24px" height="24px">
     </div>
     <div class="profile-img"></div>
   </header>

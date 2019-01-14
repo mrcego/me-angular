@@ -1,0 +1,16 @@
+{
+  "left": {
+    "greeting": "César Augusto Gómez Hernández",
+    "role": "Desarrollador Frontend - Interfaz + Experiencia de Usuario, Móviles"
+  },
+  "right": {
+    "about": {
+      "title": "¿Quien soy y qué encontrarás en mí?",
+      "paragraph": [
+        "Desarrollador de aplicaciones web y móviles basados en frameworks Javascript del lado del cliente. Experticia creando desde cero o en base a mockups existentes interfaces y experiencias de usuario que les permita utilizar todas las funcionalidades requeridas de acuerdo a sus necesidades.",
+        "Experiencia liderando proyectos, por lo que se pueden tomar posturas de tomas de decisiones cuando las circunstancias así lo ameriten.\nSCRUM como principal metodología ágil de desarrollo.",
+        "A la vanguardia utilizando las herramientas más actuales para agilizar el proceso de desarrollo de soluciones. Investigación e implementación de mejoras incrementales en el código."
+      ]
+    }
+  }
+}
