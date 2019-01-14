@@ -16,8 +16,10 @@ Author: themehippo.com
 # Background Color #ffffff
 # -------------------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+
 body {
-  font-family: "Hind", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   line-height: 1.8em;
   color: #3d3d50;
@@ -281,13 +283,11 @@ button:focus,
   top: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    -30deg,
+  background: linear-gradient(-30deg,
     rgb(2, 30, 83) 0%,
     rgba(2, 30, 83, 0.5) 40%,
     transparent 60%,
-    transparent 100%
-  );
+    transparent 100%);
 }
 
 .header .content {
@@ -385,6 +385,7 @@ button:focus,
   font-weight: 400;
   display: inline-block;
   margin: 5px 3em;
+  font-style: bolder;
 }
 
 .progress-item .progress {
@@ -393,10 +394,14 @@ button:focus,
   border-radius: 5px;
 }
 
-.progress-item .progress-bar {
-  background-color: #021e53;
+.progress-bar {
+  background-color: #021e53 !important;
   box-shadow: none;
   text-align: right;
+}
+
+.progress-bar span {
+  text-align: center !important; 
 }
 
 .progress-item .progress-percent {
@@ -438,11 +443,9 @@ button:focus,
   bottom: 0;
   padding: 30px 15px 5px;
   width: 100%;
-  background: -webkit-linear-gradient(
-    top,
+  background: -webkit-linear-gradient(top,
     transparent 0%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
+    rgba(0, 0, 0, 0.5) 100%);
 }
 
 .portfolio-item .portfolio-info h3 {
@@ -456,11 +459,9 @@ button:focus,
 }
 
 .portfolio-item:hover .portfolio-info {
-  background: -webkit-linear-gradient(
-    top,
+  background: -webkit-linear-gradient(top,
     transparent 0%,
-    rgba(42, 84, 245, 0.5) 100%
-  );
+    rgba(42, 84, 245, 0.5) 100%);
 }
 
 /*-------------------

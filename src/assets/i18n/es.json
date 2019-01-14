@@ -7,9 +7,61 @@
     "about": {
       "title": "¿Quien soy y qué encontrarás en mí?",
       "paragraph": [
-        "Desarrollador de aplicaciones web y móviles basados en frameworks Javascript del lado del cliente. Experticia creando desde cero o en base a mockups existentes interfaces y experiencias de usuario que les permita utilizar todas las funcionalidades requeridas de acuerdo a sus necesidades.",
+        "<strong>Desarrollador de aplicaciones web y móviles basados en frameworks Javascript del lado del cliente</strong>. Experticia creando desde cero o en base a mockups existentes interfaces y experiencias de usuario que les permita utilizar todas las funcionalidades requeridas de acuerdo a sus necesidades.",
         "Experiencia liderando proyectos, por lo que se pueden tomar posturas de tomas de decisiones cuando las circunstancias así lo ameriten.\nSCRUM como principal metodología ágil de desarrollo.",
         "A la vanguardia utilizando las herramientas más actuales para agilizar el proceso de desarrollo de soluciones. Investigación e implementación de mejoras incrementales en el código."
+      ]
+    },
+    "expertise": {
+      "title": "Experticia",
+      "paragraph": [{
+          "header": "Mejora Continua",
+          "description": "Implementación de mejora continua en aras de priorizar seguridad y rendimiento en cada desarrollo."
+        },
+        {
+          "header": "Administración y Gestión de Proyectos",
+          "description": "Toma de decisiones y rol de liderazgo en proyectos de pequeña y media envergadura."
+        },
+        {
+          "header": "Investigación y buenas prácticas",
+          "description": "La investigación y las buenas practicas de desarrollo como prioridades para crear productos de calidad."
+        },
+        {
+          "header": "Primero los móviles",
+          "description": "Desarrollo de experiencias de usuario e interfaces basados siempre en los estandares <i>responsive</i> del mercado."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Conocimientos Técnicos",
+      "paragraph": [{
+          "title": "Javascript / Typescript / JQuery",
+          "percent": "70"
+        },
+        {
+          "title": "AngularJS, Angular 2+, Ionic 2+, Wordpress",
+          "percent": "65"
+        },
+        {
+          "title": "HTML / HTML5",
+          "percent": "75"
+        },
+        {
+          "title": "CSS y Preprocesadores (SCSS, SASS, LESS, Mixin)",
+          "percent": "50"
+        },
+        {
+          "title": "Desarrollo orientado a Web Services (REST / SOAP)",
+          "percent": "55"
+        },
+        {
+          "title": "NPM / Bower / Angular CLI",
+          "percent": "65"
+        },
+        {
+          "title": "GIT",
+          "percent": "50"
+        }
       ]
     }
   }
