@@ -111,10 +111,10 @@
       <div class="row">
         <div class="col-md-12">
           <div class="content-item" *ngFor="let item of ('right.education.paragraph' | translate)">
-              <small>{{item.time}}</small>
-              <h3>{{item.grade}}</h3>
-              <h4>{{item.institution}}</h4>
-              <p>{{item.city}}</p>
+            <small>{{item.time}}</small>
+            <h3>{{item.grade}}</h3>
+            <h4>{{item.institution}}</h4>
+            <p>{{item.city}}</p>
           </div>
           <!-- .experience-item -->
         </div>
@@ -129,30 +129,16 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-title">
-            <h2>Interest</h2>
+            <h2>{{'right.interests.title' | translate}}</h2>
           </div>
         </div>
       </div>
       <!-- .row -->
       <div class="row">
         <div class="col-md-12">
-          <div class="content-item">
-            <h3>Books</h3>
-            <p>Proactively extend market-driven e-tailers rather than enterprise-wide supply chains.
-              Collaboratively embrace 24/7 processes rather than adaptive users. Seamlessly monetize
-              alternative e-business.</p>
-          </div>
-          <div class="content-item">
-            <h3>Sports</h3>
-            <p>Assertively grow optimal methodologies after viral technologies. Appropriately develop
-              frictionless technology for adaptive functionalities. Competently iterate functionalized
-              networks for best-of-breed services.</p>
-          </div>
-          <div class="content-item">
-            <h3>Art</h3>
-            <p>Dramatically utilize superior infomediaries whereas functional core competencies.
-              Enthusiastically repurpose synergistic vortals for customer directed portals. Interactively
-              pursue sustainable leadership via.</p>
+          <div class="content-item" *ngFor="let item of ('right.interests.paragraph' | translate)">
+            <h3>{{item.header}}</h3>
+            <p>{{item.description}}</p>
           </div>
         </div>
       </div>
@@ -232,55 +218,39 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-title">
-            <h2>Contact</h2>
+            <h2>{{'right.contact.title' | translate}}</h2>
           </div>
         </div>
       </div>
       <!--.row-->
       <div class="row">
         <div class="col-md-12">
-          <address>
-            <strong>Address</strong><br>
-            1355 Market Street, Suite 900<br>
-            San Francisco, CA 94103
-          </address>
-          <address>
-            <strong>Phone Number</strong><br>
-            +61 3 8376 6284
-          </address>
-          <address>
-            <strong>Mobile Number</strong><br>
-            987 654 321
-          </address>
-          <address>
-            <strong>Email</strong><br>
-            <a href="mailto:#">coffee@amelie.me</a>
-          </address>
+          <address *ngFor="let item of ('right.contact.paragraph' | translate)" [innerHTML]="item"></address>
         </div>
       </div>
       <!--.row-->
       <div class="row">
         <div class="col-md-12">
           <div class="feedback-form">
-            <h2>Get in touch</h2>
+            <h2>{{'right.form.title' | translate}}</h2>
             <form id="contactForm" action="sendemail.php" method="POST">
               <div class="form-group">
-                <label for="InputName">Name</label>
-                <input type="text" name="name" required="" class="form-control" id="InputName" placeholder="Full Name">
+                <label for="InputName">{{'right.form.paragraph.0.label' | translate}}</label>
+                <input type="text" name="name" required="" class="form-control" id="InputName" placeholder="{{'right.form.paragraph.0.placeholder' | translate}}">
               </div>
               <div class="form-group">
-                <label for="InputEmail">Email address</label>
-                <input type="email" name="email" required="" class="form-control" id="InputEmail" placeholder="Email">
+                <label for="InputEmail">{{'right.form.paragraph.1.label' | translate}}</label>
+                <input type="email" name="email" required="" class="form-control" id="InputEmail" placeholder="{{'right.form.paragraph.1.placeholder' | translate}}">
               </div>
               <div class="form-group">
-                <label for="InputSubject">Subject</label>
-                <input type="text" name="subject" class="form-control" id="InputSubject" placeholder="Subject">
+                <label for="InputSubject">{{'right.form.paragraph.2.label' | translate}}</label>
+                <input type="text" name="subject" class="form-control" id="InputSubject" placeholder="{{'right.form.paragraph.2.placeholder' | translate}}">
               </div>
               <div class="form-group">
-                <label for="message-text" class="control-label">Message</label>
-                <textarea class="form-control" rows="4" required="" name="message" id="message-text" placeholder="Write message"></textarea>
+                <label for="message-text" class="control-label">{{'right.form.paragraph.3.label' | translate}}</label>
+                <textarea class="form-control" rows="4" required="" name="message" id="message-text" placeholder="{{'right.form.paragraph.3.placeholder' | translate}}"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">{{'right.send.title' | translate}}</button>
             </form>
           </div>
           <!-- .feedback-form -->

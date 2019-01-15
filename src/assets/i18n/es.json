@@ -9,7 +9,7 @@
       "paragraph": [
         "<strong>Desarrollador de aplicaciones web y móviles basados en frameworks Javascript del lado del cliente</strong>. Experticia creando desde cero o en base a mockups existentes interfaces y experiencias de usuario que les permita utilizar todas las funcionalidades requeridas de acuerdo a sus necesidades.",
         "Experiencia liderando proyectos, por lo que se pueden tomar posturas de tomas de decisiones cuando las circunstancias así lo ameriten.\nSCRUM como principal metodología ágil de desarrollo.",
-        "A la vanguardia utilizando las herramientas más actuales para agilizar el proceso de desarrollo de soluciones. Investigación e implementación de mejoras incrementales en el código."
+        "A la vanguardia en la utilización de herramientas para agilizar el proceso de desarrollo de soluciones. Investigación e implementación de mejoras incrementales en el código."
       ]
     },
     "expertise": {
@@ -29,6 +29,10 @@
         {
           "header": "Primero los móviles",
           "description": "Desarrollo de experiencias de usuario e interfaces basados siempre en los estandares <i>responsive</i> del mercado."
+        },
+        {
+          "header": "Solución de problemas lógicos",
+          "description": "Creación e implementación rápida de ideas y soluciones utilizando los conceptos del <i>Pensamiento Paralelo</i>."
         }
       ]
     },
@@ -117,6 +121,61 @@
           "city": "Cartagena de Indias"
         }
       ]
+    },
+    "interests": {
+      "title": "Intereses",
+      "paragraph": [{
+          "header": "Libros",
+          "description": "La lectura inspira, y la inspiración conlleva a mejorar la creatividad y los niveles de estrategia para solución de problemas."
+        },
+        {
+          "header": "Café",
+          "description": "Una buena taza de café motiva a crear código de calidad, es el combustible del desarrollador."
+        },
+        {
+          "header": "Marvel Comics",
+          "description": "Entre la lectura, un sano esparcimiento es leer la ideas heroicas del ya fallecido Stan Lee."
+        },
+        {
+          "header": "Nuevos frameworks",
+          "description": "Cuando un framework empieza a hacerse notar, la curiosidad hace su aparición; la evaluación es primordial."
+        },
+        {
+          "header": "Juegos online",
+          "description": "Sobre todo si son de estrategia y MMORPG, son un aliciente para denotar competitividad sana, algo importante en el ambiente laboral."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Datos de contacto",
+      "paragraph": [
+        "<strong>Dirección</strong><br>Barrio San Fernando, Urbanización Villa de la Mar Mz H Lote 8 <br>Cartagena - Bolivar.",
+        "<strong>Número Celular</strong><br>(+57) 3004224633",
+        "<strong>Email</strong><br><a href='mailto:#'>cesar_gomez_h@hotmail.com</a>"
+      ]
+    },
+    "form": {
+      "title": "Comunicate conmigo",
+      "paragraph": [{
+          "label": "Nombre",
+          "placeholder": "Nombre completo"
+        },
+        {
+          "label": "Correo electrónico",
+          "placeholder": "Correo electrónico"
+        },
+        {
+          "label": "Asunto",
+          "placeholder": "Asunto"
+        },
+        {
+          "label": "Mensaje",
+          "placeholder": "Escribe tu mensaje"
+        }
+      ]
+    },
+    "send": {
+      "title": "Enviar"
     }
   }
 }
