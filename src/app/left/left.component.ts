@@ -23,8 +23,7 @@ export class LeftComponent implements OnInit {
     {
       icon: 'download',
       url: '../../assets/Resume_CAGH_ES.pdf'
-    },
-    // 'twitter', 'linkedin'
+    }
   ];
 
   constructor() { }

@@ -271,7 +271,7 @@ button:focus,
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: url(assets/img/img-profile.jpg);
+  background-image: url(assets/img/me.png);
   background-size: cover;
   background-position: center top;
 }
@@ -401,7 +401,8 @@ button:focus,
 }
 
 .progress-bar span {
-  text-align: center !important; 
+  text-align: center !important;
+  font-style: bold !important;
 }
 
 .progress-item .progress-percent {
