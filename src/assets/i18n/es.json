@@ -174,8 +174,7 @@
         }
       ]
     },
-    "send": {
-      "title": "Enviar"
-    }
+    "send": "Enviar",
+    "footer": "Plantilla adaptada con mucho <i class='fa fa-heart' aria-hidden='true'></i> para Angular. | Diseño por <a href='https://themehippo.com'>ThemeHippo</a>"
   }
 }

@@ -134,12 +134,15 @@ ul {
 /*btn-primary*/
 .btn-primary {
   background-color: #021e53;
+  border: solid #f9f9f9 1px;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:focus {
-  background: #1e3eb5;
+  background: #f9f9f9;
+  color: #021e53;
+  border: solid #f9f9f9 1px;
 }
 
 /*btn-default*/
@@ -217,6 +220,10 @@ button:focus,
 
 .gray-bg {
   background-color: #f9f9f9;
+}
+
+.blue-bg {
+  background-color: #021e53;
 }
 
 /* --------------------
@@ -501,6 +508,7 @@ button:focus,
 
 .feedback-form {
   margin-top: 50px;
+  margin-bottom: 1em;
 }
 
 /*-------------------
@@ -531,16 +539,27 @@ button:focus,
 
 .footer {
   padding: 30px 50px;
+  background-color: #021e53;
 }
 
 .footer .copyright-section {
   font-size: 13px;
-  color: #888888;
+  color: #f9f9f9;
 }
 
 .footer .copyright-section .copytext {
   font-weight: 400;
   display: block;
+}
+
+.footer .copyright-section .copytext a {
+  color: #f9f9f9;
+}
+
+.footer .copyright-section .copytext a:hover {
+  color: white;
+  font-weight: 600;
+  animation: ease-in 0.8s;
 }
 
 @media (max-width: 480px) {

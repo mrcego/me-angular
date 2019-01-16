@@ -146,7 +146,7 @@
     </div>
   </section>
   <!-- .section-publications -->
-  <section class="section-wrapper portfolio-section">
+  <!-- <section class="section-wrapper portfolio-section">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
@@ -165,9 +165,7 @@
               <h3>Creative concepts</h3>
               <small>domain.com</small>
             </div>
-            <!-- portfolio-info -->
           </a>
-          <!-- .portfolio-item -->
         </div>
         <div class="col-md-6">
           <a class="portfolio-item" href="#">
@@ -178,9 +176,7 @@
               <h3>Customer focused</h3>
               <small>domain.com</small>
             </div>
-            <!-- portfolio-info -->
           </a>
-          <!-- .portfolio-item -->
         </div>
         <div class="col-md-6">
           <a class="portfolio-item" href="#">
@@ -191,9 +187,7 @@
               <h3>Management methodology</h3>
               <small>domain.com</small>
             </div>
-            <!-- portfolio-info -->
           </a>
-          <!-- .portfolio-item -->
         </div>
         <div class="col-md-6">
           <a class="portfolio-item" href="#">
@@ -204,16 +198,13 @@
               <h3>Market research</h3>
               <small>domain.com</small>
             </div>
-            <!-- portfolio-info -->
           </a>
-          <!-- .portfolio-item -->
         </div>
       </div>
-      <!-- /.row -->
     </div>
-  </section>
+  </section> -->
   <!-- .portfolio -->
-  <section class="section-contact section-wrapper gray-bg">
+  <section class="section-contact section-wrapper">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
@@ -229,28 +220,28 @@
         </div>
       </div>
       <!--.row-->
-      <div class="row">
+      <div class="row blue-bg">
         <div class="col-md-12">
           <div class="feedback-form">
-            <h2>{{'right.form.title' | translate}}</h2>
+            <h2 [style.color]="'#f9f9f9'">{{'right.form.title' | translate}}</h2>
             <form id="contactForm" action="sendemail.php" method="POST">
               <div class="form-group">
-                <label for="InputName">{{'right.form.paragraph.0.label' | translate}}</label>
+                <label [style.color]="'#f9f9f9'" for="InputName">{{'right.form.paragraph.0.label' | translate}}</label>
                 <input type="text" name="name" required="" class="form-control" id="InputName" placeholder="{{'right.form.paragraph.0.placeholder' | translate}}">
               </div>
               <div class="form-group">
-                <label for="InputEmail">{{'right.form.paragraph.1.label' | translate}}</label>
+                <label [style.color]="'#f9f9f9'" for="InputEmail">{{'right.form.paragraph.1.label' | translate}}</label>
                 <input type="email" name="email" required="" class="form-control" id="InputEmail" placeholder="{{'right.form.paragraph.1.placeholder' | translate}}">
               </div>
               <div class="form-group">
-                <label for="InputSubject">{{'right.form.paragraph.2.label' | translate}}</label>
+                <label [style.color]="'#f9f9f9'" for="InputSubject">{{'right.form.paragraph.2.label' | translate}}</label>
                 <input type="text" name="subject" class="form-control" id="InputSubject" placeholder="{{'right.form.paragraph.2.placeholder' | translate}}">
               </div>
               <div class="form-group">
-                <label for="message-text" class="control-label">{{'right.form.paragraph.3.label' | translate}}</label>
+                <label [style.color]="'#f9f9f9'" for="message-text" class="control-label">{{'right.form.paragraph.3.label' | translate}}</label>
                 <textarea class="form-control" rows="4" required="" name="message" id="message-text" placeholder="{{'right.form.paragraph.3.placeholder' | translate}}"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">{{'right.send.title' | translate}}</button>
+              <button type="submit" class="btn btn-primary">{{'right.send' | translate}}</button>
             </form>
           </div>
           <!-- .feedback-form -->
@@ -265,7 +256,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <div class="copytext">&copy; 2015 Online CV. All rights reserved | Design By: <a href="https://themehippo.com">ThemeHippo</a></div>
+            <div class="copytext" [innerHTML]="'right.footer' | translate "></div>
           </div>
         </div>
         <!--.row-->
