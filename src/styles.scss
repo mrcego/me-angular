@@ -204,13 +204,24 @@ button:focus,
 @media (max-width: 600px) {
   .left-col-block {
     width: 100%;
-    position: relative;
+    position: absolute;
   }
 
   .right-col-block {
     width: 100%;
     position: relative;
     box-shadow: none;
+    top: 630px;
+  }
+
+  .navbar {
+    position: relative;
+    z-index: 1;
+  }
+
+  :host ::ng-deep .progress-title {
+    text-align: center !important;
+    vertical-align: middle;
   }
 }
 

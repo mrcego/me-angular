@@ -9,12 +9,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LeftComponent } from './left/left.component';
 import { RightComponent } from './right/right.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LeftComponent,
-    RightComponent
+    RightComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
