@@ -1,7 +1,24 @@
 {
   "left": {
     "greeting": "César Augusto Gómez Hernández",
-    "role": "Desarrollador Frontend - Interfaz + Experiencia de Usuario, Móviles"
+    "role": "Desarrollador Frontend - Interfaz + Experiencia de Usuario, Móviles",
+    "social": [{
+        "icon": "facebook",
+        "url": "https://www.facebook.com/mrcego"
+      },
+      {
+        "icon": "twitter",
+        "url": "https://twitter.com/mrcego"
+      },
+      {
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/mrcego/"
+      },
+      {
+        "icon": "download",
+        "url": "../../assets/Resume_CAGH_ES.pdf"
+      }
+    ]
   },
   "right": {
     "about": {
