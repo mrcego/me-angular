@@ -1,0 +1,8 @@
+{
+  "universal": {
+    "project": "me",
+    "skipInstall": false,
+    "directory": ".",
+    "http": true
+  }
+}

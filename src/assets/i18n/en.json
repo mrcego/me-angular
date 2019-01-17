@@ -1,0 +1,201 @@
+{
+  "left": {
+    "greeting": "Cesar Gomez",
+    "role": "Frontend Developer - UI + UX + Mobile",
+    "social": [{
+        "icon": "facebook",
+        "url": "https://www.facebook.com/mrcego"
+      },
+      {
+        "icon": "twitter",
+        "url": "https://twitter.com/mrcego"
+      },
+      {
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/mrcego/"
+      },
+      {
+        "icon": "stack-exchange",
+        "url": "https://stackexchange.com/users/8713552/c%C3%A9sar-g%C3%B3mez?tab=accounts"
+      },
+      {
+        "icon": "download",
+        "url": "./assets/Resume_CAGH_EN.pdf"
+      }
+    ]
+  },
+  "right": {
+    "about": {
+      "title": "What I am all about",
+      "paragraph": [
+        "<strong>Web and mobile applications based on Javascript frameworks Frontend Developer</strong>. Expertise building interfaces from scratch and/or <i>PSD to HTML</i> mockups, letting user experiences with all features according project requeriments.",
+        "Expertise with Project Leadership, so I am able to take decision making attitude when necessary.\nSCRUM as main agile methodology.",
+        "Modern tools use to rapid solutions development. Resources investigation and deployment for incremental code-source enhancement."
+      ]
+    },
+    "expertise": {
+      "title": "Expertise",
+      "paragraph": [{
+          "header": "Continuous improvements",
+          "description": "Continuous improvements deployment prioritizing security and performance around each development stages."
+        },
+        {
+          "header": "Project Management",
+          "description": "Decision making attitude and leadership role in small and middle scope projects."
+        },
+        {
+          "header": "Investigation and good engineering practices",
+          "description": "Investigation and good practices as main aspects to develop high quality products."
+        },
+        {
+          "header": "Mobile first",
+          "description": "Interfaces and user experiences development based on the most recent web <i>responsive design</i> standards."
+        },
+        {
+          "header": "Logical problems solving",
+          "description": "Rapid deployment of ideas and solutions using <i>Parallel Thinking</i> concepts."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Tech Skills",
+      "paragraph": [{
+          "title": "Javascript / Typescript / JQuery",
+          "percent": "70",
+          "icon": "./assets/skills/javascript-typescript-jquery.png"
+        },
+        {
+          "title": "AngularJS, Angular 2+, Ionic 2+, Wordpress",
+          "percent": "65",
+          "icon": "./assets/skills/angular-ionic.png"
+        },
+        {
+          "title": "HTML / HTML5",
+          "percent": "75",
+          "icon": "./assets/skills/html5.jpg"
+        },
+        {
+          "title": "CSS and preproccesors (SCSS, SASS, LESS, Mixin)",
+          "percent": "50",
+          "icon": "./assets/skills/css.png"
+        },
+        {
+          "title": "Service-oriented (SOA) development (REST / SOAP)",
+          "percent": "55",
+          "icon": "./assets/skills/rest-soap.png"
+        },
+        {
+          "title": "NPM / Bower / Angular CLI",
+          "percent": "65",
+          "icon": "./assets/skills/npmjs.png"
+        },
+        {
+          "title": "GIT",
+          "percent": "50",
+          "icon": "./assets/skills/git.png"
+        }
+      ]
+    },
+    "experiences": {
+      "title": "Work experiences",
+      "paragraph": [{
+          "time": "September 2018 - November 2018",
+          "role": "Web Frontend Developer",
+          "company": "4to Pixel Industria Creativa",
+          "address": "Bocagrande, 7th Street #4 - 115 Of #1 Yacaman Building - Cartagena",
+          "description": "Web app frontend development using <strong>Angular 6+</strong> for safety and health at work management."
+        },
+        {
+          "time": "February 2017 - September 2017",
+          "role": "Frontend Developer - IT Project Manager",
+          "company": "Qué Hay Pa' Hacer",
+          "address": "Torices district, Villa Hermosa housing development, Bogotá Street #14, House 14 - Cartagena",
+          "description": "Hybrid-mobile app development using <strong>Ionic Framework 2</strong>. Web app development using <strong>Angular 2</strong>. <strong>IT Project Management</strong>."
+        },
+        {
+          "time": "January 2016 - December 2016",
+          "role": "Junior Frontend Developer",
+          "company": "Zabud Technologies",
+          "address": "El Cairo housing development, 30th Street # 50A - 06 - Cartagena",
+          "description": "Collaboration in web solutions development using <strong>AngularJS</strong> y <strong>Wordpress</strong>."
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "paragraph": [{
+          "time": "July 2014 - July 2016",
+          "grade": "IT Analysis and Development Technologist",
+          "institution": "Servicio Nacional de Aprendizaje (SENA)",
+          "city": "Cartagena de Indias"
+        },
+        {
+          "time": "January 2007 - December 2011 (Until eighth semester)",
+          "grade": "Systems engineering",
+          "institution": "Tecnológica de Bolivar university",
+          "city": "Cartagena de Indias"
+        },
+        {
+          "time": "December 2006",
+          "grade": "Bachelor",
+          "institution": "Salesiano San Pedro Claver college",
+          "city": "Cartagena de Indias"
+        }
+      ]
+    },
+    "interests": {
+      "title": "Interests",
+      "paragraph": [{
+          "header": "Books",
+          "description": "Reading inspires, and inspiration leads to improved creativity and strategy levels for problem solving."
+        },
+        {
+          "header": "Coffee",
+          "description": "A good cup of coffee motivate you to create quality code, it is the fuel of the developer."
+        },
+        {
+          "header": "Marvel Comics",
+          "description": "A healthy and funny hobby is reading the heroic ideas of the late Stan Lee."
+        },
+        {
+          "header": "New frameworks",
+          "description": "When a framework begins to be noticed, curiosity makes its appearance; evaluation is important."
+        },
+        {
+          "header": "Online games",
+          "description": "Especially strategy and MMORPG games, they are an incentive to denote healthy competitiveness, something important in the work environment."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "paragraph": [
+        "<strong>Address</strong><br>San Fernando district, Villa de la Mar housing development Block H House 8 <br>Cartagena - Bolivar.",
+        "<strong>Mobile number</strong><br>(+57) 3004224633",
+        "<strong>Email</strong><br><a href='mailto:#'>cesar_gomez_h@hotmail.com</a>"
+      ]
+    },
+    "form": {
+      "title": "Get in touch",
+      "paragraph": [{
+          "label": "Name",
+          "placeholder": "Full name"
+        },
+        {
+          "label": "Email",
+          "placeholder": "Email"
+        },
+        {
+          "label": "Subject",
+          "placeholder": "Subject"
+        },
+        {
+          "label": "Message",
+          "placeholder": "Write message"
+        }
+      ]
+    },
+    "send": "Send",
+    "footer": "Adapted template with a lot of <i class='fa fa-heart' aria-hidden='true'></i> for Angular. | Design by <a href='https://themehippo.com'>ThemeHippo</a>"
+  }
+}

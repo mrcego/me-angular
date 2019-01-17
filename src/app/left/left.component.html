@@ -1,0 +1,17 @@
+<div class="left-col-block blocks">
+  <header class="header">
+    <div class="content text-center">
+      <h1>{{ 'left.greeting' | translate }}</h1>
+      <p class="lead">{{ 'left.role' | translate }}</p>
+      <ul class="social-icon">
+        <li *ngFor="let item of ('left.social' | translate)"><a target="_blank" [href]="item.url"><i class="fa fa-{{item.icon}}"
+              aria-hidden="true"></i></a></li>
+      </ul>
+      <img src="./assets/colombia-icon.png" width="24px" height="24px">
+    </div>
+    <div class="profile-img"></div>
+    <app-header></app-header>
+
+  </header>
+  <!-- .header-->
+</div>

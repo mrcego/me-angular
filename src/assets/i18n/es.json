@@ -1,0 +1,201 @@
+{
+  "left": {
+    "greeting": "César Augusto Gómez Hernández",
+    "role": "Desarrollador Frontend - Interfaz + Experiencia de Usuario, Móviles",
+    "social": [{
+        "icon": "facebook",
+        "url": "https://www.facebook.com/mrcego"
+      },
+      {
+        "icon": "twitter",
+        "url": "https://twitter.com/mrcego"
+      },
+      {
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/mrcego/"
+      },
+      {
+        "icon": "stack-exchange",
+        "url": "https://stackexchange.com/users/8713552/c%C3%A9sar-g%C3%B3mez?tab=accounts"
+      },
+      {
+        "icon": "download",
+        "url": "./assets/Resume_CAGH_ES.pdf"
+      }
+    ]
+  },
+  "right": {
+    "about": {
+      "title": "¿Quien soy y qué encontrarás en mí?",
+      "paragraph": [
+        "<strong>Desarrollador de aplicaciones web y móviles basados en frameworks Javascript del lado del cliente</strong>. Experticia creando desde cero o en base a mockups existentes interfaces y experiencias de usuario que les permita utilizar todas las funcionalidades requeridas de acuerdo a sus necesidades.",
+        "Experiencia liderando proyectos, por lo que se pueden tomar posturas de tomas de decisiones cuando las circunstancias así lo ameriten.\nSCRUM como principal metodología ágil de desarrollo.",
+        "A la vanguardia en la utilización de herramientas para agilizar el proceso de desarrollo de soluciones. Investigación e implementación de mejoras incrementales en el código."
+      ]
+    },
+    "expertise": {
+      "title": "Experticia",
+      "paragraph": [{
+          "header": "Mejora Continua",
+          "description": "Implementación de mejora continua en aras de priorizar seguridad y rendimiento en cada desarrollo."
+        },
+        {
+          "header": "Administración y Gestión de Proyectos",
+          "description": "Toma de decisiones y rol de liderazgo en proyectos de pequeña y media envergadura."
+        },
+        {
+          "header": "Investigación y buenas prácticas",
+          "description": "La investigación y las buenas practicas de desarrollo como prioridades para crear productos de calidad."
+        },
+        {
+          "header": "Primero los móviles",
+          "description": "Desarrollo de experiencias de usuario e interfaces basados siempre en los estandares <i>responsive</i> del mercado."
+        },
+        {
+          "header": "Solución de problemas lógicos",
+          "description": "Creación e implementación rápida de ideas y soluciones utilizando los conceptos del <i>Pensamiento Paralelo</i>."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Conocimientos Técnicos",
+      "paragraph": [{
+          "title": "Javascript / Typescript / JQuery",
+          "percent": "70",
+          "icon": "./assets/skills/javascript-typescript-jquery.png"
+        },
+        {
+          "title": "AngularJS, Angular 2+, Ionic 2+, Wordpress",
+          "percent": "65",
+          "icon": "./assets/skills/angular-ionic.png"
+        },
+        {
+          "title": "HTML / HTML5",
+          "percent": "75",
+          "icon": "./assets/skills/html5.jpg"
+        },
+        {
+          "title": "CSS y Preprocesadores (SCSS, SASS, LESS, Mixin)",
+          "percent": "50",
+          "icon": "./assets/skills/css.png"
+        },
+        {
+          "title": "Desarrollo orientado a Web Services (REST / SOAP)",
+          "percent": "55",
+          "icon": "./assets/skills/rest-soap.png"
+        },
+        {
+          "title": "NPM / Bower / Angular CLI",
+          "percent": "65",
+          "icon": "./assets/skills/npmjs.png"
+        },
+        {
+          "title": "GIT",
+          "percent": "50",
+          "icon": "./assets/skills/git.png"
+        }
+      ]
+    },
+    "experiences": {
+      "title": "Experiencia Laboral",
+      "paragraph": [{
+          "time": "Septiembre 2018 - Noviembre 2018",
+          "role": "Desarrollador Web Frontend",
+          "company": "4to Pixel Industria Creativa",
+          "address": "Bocagrande, Carrera 4 #7 -115. Local 1 Edf. Yacamán - Cartagena de Indias",
+          "description": "Desarrollo Frontend de aplicación web con <strong>Angular 6+</strong> para la gestión de la seguridad y la salud en el trabajo."
+        },
+        {
+          "time": "Febrero 2017 - Septiembre 2017",
+          "role": "Desarrollador Frontend - IT Project Manager",
+          "company": "Qué Hay Pa' Hacer",
+          "address": "Barrio Torices Urbanización Villa Hermosa Calle Bogotá Cra 14 Casa 14 - Cartagena de Indias",
+          "description": "Desarrollo de aplicación móvil hibrida con <strong>Ionic Framework 2</strong>. Desarrollo de aplicación web con <strong>Angular 2</strong>. <strong>IT Project Management</strong>."
+        },
+        {
+          "time": "Enero 2016 - Diciembre 2016",
+          "role": "Desarrollador Frontend Junior",
+          "company": "Zabud Technologies",
+          "address": "Urbanización El Cairo Calle 30 G No 50ª - 06 - Cartagena de Indias",
+          "description": "Colaboración en el desarrollo de soluciones web en <strong>AngularJS</strong> y <strong>Wordpress</strong>."
+        }
+      ]
+    },
+    "education": {
+      "title": "Educación",
+      "paragraph": [{
+          "time": "Julio 2014 - Julio 2016",
+          "grade": "Tecnólogo en Análisis y Desarrollo de Sistemas de Información",
+          "institution": "Servicio Nacional de Aprendizaje (SENA)",
+          "city": "Cartagena de Indias"
+        },
+        {
+          "time": "Enero 2007 - Diciembre 2011 (Hasta octavo Semestre)",
+          "grade": "Ingeniería de Sistemas",
+          "institution": "Universidad Tecnológica de Bolivar",
+          "city": "Cartagena de Indias"
+        },
+        {
+          "time": "Diciembre 2006",
+          "grade": "Bachiller",
+          "institution": "Colegio Salesiano San Pedro Claver",
+          "city": "Cartagena de Indias"
+        }
+      ]
+    },
+    "interests": {
+      "title": "Intereses",
+      "paragraph": [{
+          "header": "Libros",
+          "description": "La lectura inspira, y la inspiración conlleva a mejorar la creatividad y los niveles de estrategia para solución de problemas."
+        },
+        {
+          "header": "Café",
+          "description": "Una buena taza de café motiva a crear código de calidad, es el combustible del desarrollador."
+        },
+        {
+          "header": "Marvel Comics",
+          "description": "Entre la lectura, un sano esparcimiento es leer la ideas heroicas del ya fallecido Stan Lee."
+        },
+        {
+          "header": "Nuevos frameworks",
+          "description": "Cuando un framework empieza a hacerse notar, la curiosidad hace su aparición; la evaluación es primordial."
+        },
+        {
+          "header": "Juegos online",
+          "description": "Sobre todo si son de estrategia y MMORPG, son un aliciente para denotar competitividad sana, algo importante en el ambiente laboral."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Datos de contacto",
+      "paragraph": [
+        "<strong>Dirección</strong><br>Barrio San Fernando, Urbanización Villa de la Mar Mz H Lote 8 <br>Cartagena - Bolivar.",
+        "<strong>Número Celular</strong><br>(+57) 3004224633",
+        "<strong>Email</strong><br><a href='mailto:#'>cesar_gomez_h@hotmail.com</a>"
+      ]
+    },
+    "form": {
+      "title": "Comunicate conmigo",
+      "paragraph": [{
+          "label": "Nombre",
+          "placeholder": "Nombre completo"
+        },
+        {
+          "label": "Correo electrónico",
+          "placeholder": "Correo electrónico"
+        },
+        {
+          "label": "Asunto",
+          "placeholder": "Asunto"
+        },
+        {
+          "label": "Mensaje",
+          "placeholder": "Escribe tu mensaje"
+        }
+      ]
+    },
+    "send": "Enviar",
+    "footer": "Plantilla adaptada con mucho <i class='fa fa-heart' aria-hidden='true'></i> para Angular. | Diseño por <a href='https://themehippo.com'>ThemeHippo</a>"
+  }
+}
