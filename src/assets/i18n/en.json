@@ -20,7 +20,7 @@
       },
       {
         "icon": "download",
-        "url": "../../assets/Resume_CAGH_EN.pdf"
+        "url": "./assets/Resume_CAGH_EN.pdf"
       }
     ]
   },
@@ -62,37 +62,37 @@
       "paragraph": [{
           "title": "Javascript / Typescript / JQuery",
           "percent": "70",
-          "icon": "../../assets/skills/javascript-typescript-jquery.png"
+          "icon": "./assets/skills/javascript-typescript-jquery.png"
         },
         {
           "title": "AngularJS, Angular 2+, Ionic 2+, Wordpress",
           "percent": "65",
-          "icon": "../../assets/skills/angular-ionic.png"
+          "icon": "./assets/skills/angular-ionic.png"
         },
         {
           "title": "HTML / HTML5",
           "percent": "75",
-          "icon": "../../assets/skills/html5.jpg"
+          "icon": "./assets/skills/html5.jpg"
         },
         {
           "title": "CSS and preproccesors (SCSS, SASS, LESS, Mixin)",
           "percent": "50",
-          "icon": "../../assets/skills/css.png"
+          "icon": "./assets/skills/css.png"
         },
         {
           "title": "Service-oriented (SOA) development (REST / SOAP)",
           "percent": "55",
-          "icon": "../../assets/skills/rest-soap.png"
+          "icon": "./assets/skills/rest-soap.png"
         },
         {
           "title": "NPM / Bower / Angular CLI",
           "percent": "65",
-          "icon": "../../assets/skills/npmjs.png"
+          "icon": "./assets/skills/npmjs.png"
         },
         {
           "title": "GIT",
           "percent": "50",
-          "icon": "../../assets/skills/git.png"
+          "icon": "./assets/skills/git.png"
         }
       ]
     },
