@@ -1,3 +1,6 @@
+import { NgtUniversalModule } from '@ng-toolkit/universal';
+import { CommonModule } from '@angular/common';
+import { TransferHttpCacheModule } from '@nguniversal/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
@@ -18,8 +21,14 @@ import { HeaderComponent } from './header/header.component';
     RightComponent,
     HeaderComponent
   ],
-  imports: [
-    BrowserModule,
+  imports:[
+ CommonModule,
+NgtUniversalModule,
+ 
+ TransferHttpCacheModule,
+HttpClientModule,
+ 
+    
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
@@ -32,7 +41,6 @@ import { HeaderComponent } from './header/header.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
 })
 export class AppModule { }
 export function HttpLoaderFactory(http: HttpClient) {
