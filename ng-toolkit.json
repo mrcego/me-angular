@@ -1,8 +1,0 @@
-{
-  "universal": {
-    "project": "cesargomezh",
-    "skipInstall": false,
-    "directory": ".",
-    "http": true
-  }
-}
