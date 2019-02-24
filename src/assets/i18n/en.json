@@ -29,8 +29,8 @@
       "title": "What I am all about",
       "paragraph": [
         "<strong>Web and mobile applications based on Javascript frameworks Frontend Developer</strong>. Expertise building interfaces from scratch and/or <i>PSD to HTML</i> mockups, letting user experiences with all features according project requeriments.",
-        "Expertise with Project Leadership, so I am able to take decision making attitude when necessary.\nSCRUM as main agile methodology.",
-        "Modern tools use to rapid solutions development. Resources investigation and deployment for incremental code-source enhancement."
+        "Expertise with Project Leadership, so I am able to take decision-making attitude when necessary.\nSCRUM as main agile methodology.",
+        "Use of modern tools for fast solutions development. Resources investigation and deployment for incremental code-source enhancement."
       ]
     },
     "expertise": {
@@ -68,6 +68,11 @@
           "title": "AngularJS, Angular 2+, Ionic 2+, Wordpress",
           "percent": "65",
           "icon": "./assets/skills/angular-ionic.png"
+        },
+        {
+          "title": "VueJS 2, Vuetify, Vuex, vue-router",
+          "percent": "60",
+          "icon": "./assets/skills/vue.png"
         },
         {
           "title": "HTML / HTML5",
