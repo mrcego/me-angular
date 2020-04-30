@@ -2,7 +2,8 @@
   "left": {
     "greeting": "Cesar Gomez",
     "role": "Frontend Developer - UI + UX + Mobile",
-    "social": [{
+    "social": [
+      {
         "icon": "facebook",
         "url": "https://www.facebook.com/mrcego"
       },
@@ -35,7 +36,8 @@
     },
     "expertise": {
       "title": "Expertise",
-      "paragraph": [{
+      "paragraph": [
+        {
           "header": "Continuous improvements",
           "description": "Continuous improvements deployment prioritizing security and performance around each development stages."
         },
@@ -59,7 +61,8 @@
     },
     "skills": {
       "title": "Tech Skills",
-      "paragraph": [{
+      "paragraph": [
+        {
           "title": "Javascript / Typescript / JQuery",
           "percent": "70",
           "icon": "./assets/skills/javascript-typescript-jquery.png"
@@ -103,7 +106,15 @@
     },
     "experiences": {
       "title": "Work experiences",
-      "paragraph": [{
+      "paragraph": [
+        {
+          "time": "Febrero 2019 - Currently",
+          "role": "Web & Mobile Frontend Developer",
+          "company": "TISSINI",
+          "address": "2323 NW 82nd Ave, Doral, FL 33122, USA",
+          "description": "e-commerce Web & Mobile frontend development with <strong>Vue.js 2.x</strong> to boost sales for the company. Main project, <a href='https://tissini.app' target='_blank'>TISSINI App</a>"
+        },
+        {
           "time": "September 2018 - November 2018",
           "role": "Web Frontend Developer",
           "company": "4to Pixel Industria Creativa",
@@ -128,7 +139,8 @@
     },
     "education": {
       "title": "Education",
-      "paragraph": [{
+      "paragraph": [
+        {
           "time": "July 2014 - July 2016",
           "grade": "IT Analysis and Development Technologist",
           "institution": "Servicio Nacional de Aprendizaje (SENA)",
@@ -150,7 +162,8 @@
     },
     "interests": {
       "title": "Interests",
-      "paragraph": [{
+      "paragraph": [
+        {
           "header": "Books",
           "description": "Reading inspires, and inspiration leads to improved creativity and strategy levels for problem solving."
         },
@@ -175,14 +188,15 @@
     "contact": {
       "title": "Contact",
       "paragraph": [
-        "<strong>Address</strong><br>San Fernando district, Villa de la Mar housing development Block H House 8 <br>Cartagena - Bolivar.",
+        "<strong>Address</strong><br>San Marino, Balconies of San Marino, Tower 4 Apt 514 <br> 87th Street #77C-95 <br>Barranquilla - Atlántico.",
         "<strong>Mobile number</strong><br>(+57) 3117889536",
-        "<strong>Email</strong><br><a href='mailto:#'>cesar_gomez_h@hotmail.com</a>"
+        "<strong>Email</strong><br><a href='mailto:cesar_gomez_h@hotmail.com?Subject=Reaching%20you%20for%20Dev%20labor'>cesar_gomez_h@hotmail.com</a>"
       ]
     },
     "form": {
       "title": "Get in touch",
-      "paragraph": [{
+      "paragraph": [
+        {
           "label": "Name",
           "placeholder": "Full name"
         },

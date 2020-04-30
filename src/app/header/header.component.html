@@ -1,8 +1,15 @@
 <nav class="navbar navbar-light bg-transparent">
-  <a class="navbar-brand "></a>
+  <a class="navbar-brand"></a>
   <form class="form-inline">
-    <a [style.cursor]="pointerSpanish" (click)="setLangVersion('es')"><img [src]="iconSpanishURI" width="36px" height="24px"></a>
-    <a [style.cursor]="pointerEnglish" (click)="setLangVersion('en')"><img class="mx-2 mx-sm-1" [src]="iconEnglishURI"
-        width="36px" height="24px"></a>
+    <a [style.cursor]="pointerSpanish" (click)="setLangVersion('es')"
+      ><img [src]="iconSpanishURI" width="36px" height="24px"
+    /></a>
+    <a [style.cursor]="pointerEnglish" (click)="setLangVersion('en')"
+      ><img
+        class="mx-2 mx-sm-1"
+        [src]="iconEnglishURI"
+        width="36px"
+        height="24px"
+    /></a>
   </form>
 </nav>

@@ -2,7 +2,8 @@
   "left": {
     "greeting": "César Augusto Gómez Hernández",
     "role": "Desarrollador Frontend - Interfaz + Experiencia de Usuario, Móviles",
-    "social": [{
+    "social": [
+      {
         "icon": "facebook",
         "url": "https://www.facebook.com/mrcego"
       },
@@ -35,7 +36,8 @@
     },
     "expertise": {
       "title": "Experticia",
-      "paragraph": [{
+      "paragraph": [
+        {
           "header": "Mejora Continua",
           "description": "Implementación de mejora continua en aras de priorizar seguridad y rendimiento en cada desarrollo."
         },
@@ -59,8 +61,9 @@
     },
     "skills": {
       "title": "Conocimientos Técnicos",
-      "paragraph": [{
-          "title": "Javascript / Typescript / JQuery",
+      "paragraph": [
+        {
+          "title": "Javascript / Typescript",
           "percent": "70",
           "icon": "./assets/skills/javascript-typescript-jquery.png"
         },
@@ -71,7 +74,7 @@
         },
         {
           "title": "VueJS 2, Vuetify, Vuex, vue-router",
-          "percent": "60",
+          "percent": "65",
           "icon": "./assets/skills/vue.png"
         },
         {
@@ -90,12 +93,12 @@
           "icon": "./assets/skills/rest-soap.png"
         },
         {
-          "title": "NPM / Bower / Angular CLI",
+          "title": "NPM / Yarn / Angular CLI / Vue CLI Services",
           "percent": "65",
           "icon": "./assets/skills/npmjs.png"
         },
         {
-          "title": "GIT",
+          "title": "Git / Git Flow",
           "percent": "50",
           "icon": "./assets/skills/git.png"
         }
@@ -103,7 +106,15 @@
     },
     "experiences": {
       "title": "Experiencia Laboral",
-      "paragraph": [{
+      "paragraph": [
+        {
+          "time": "Febrero 2019 - Actualmente",
+          "role": "Web & Mobile Frontend Developer",
+          "company": "TISSINI",
+          "address": "2323 NW 82nd Ave, Doral, FL 33122, Estados Unidos",
+          "description": "Desarrollo frontend de aplicación web y mobile con <strong>Vue.js 2.x</strong> de tipo e-commerce para el impulso de ventas para la compañía. Proyecto principal, <a href='https://tissini.app' target='_blank'>TISSINI App</a>"
+        },
+        {
           "time": "Septiembre 2018 - Noviembre 2018",
           "role": "Desarrollador Web Frontend",
           "company": "4to Pixel Industria Creativa",
@@ -128,7 +139,8 @@
     },
     "education": {
       "title": "Educación",
-      "paragraph": [{
+      "paragraph": [
+        {
           "time": "Julio 2014 - Julio 2016",
           "grade": "Tecnólogo en Análisis y Desarrollo de Sistemas de Información",
           "institution": "Servicio Nacional de Aprendizaje (SENA)",
@@ -150,7 +162,8 @@
     },
     "interests": {
       "title": "Intereses",
-      "paragraph": [{
+      "paragraph": [
+        {
           "header": "Libros",
           "description": "La lectura inspira, y la inspiración conlleva a mejorar la creatividad y los niveles de estrategia para solución de problemas."
         },
@@ -175,14 +188,15 @@
     "contact": {
       "title": "Datos de contacto",
       "paragraph": [
-        "<strong>Dirección</strong><br>Barrio San Fernando, Urbanización Villa de la Mar Mz H Lote 8 <br>Cartagena - Bolivar.",
+        "<strong>Dirección</strong><br>Barrio San Marino, Balcones de San Marino Torre 4 Apto 514 <br> Calle 87#77C-95 <br>Barranquilla - Atlantico.",
         "<strong>Número Celular</strong><br>(+57) 3117889536",
-        "<strong>Email</strong><br><a href='mailto:#'>cesar_gomez_h@hotmail.com</a>"
+        "<strong>Email</strong><br><a href='mailto:cesar_gomez_h@hotmail.com?Subject=Contacto%20para%20Dev%20labor'>cesar_gomez_h@hotmail.com</a>"
       ]
     },
     "form": {
       "title": "Comunicate conmigo",
-      "paragraph": [{
+      "paragraph": [
+        {
           "label": "Nombre",
           "placeholder": "Nombre completo"
         },
