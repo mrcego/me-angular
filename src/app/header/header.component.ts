@@ -27,13 +27,13 @@ export class HeaderComponent implements OnInit {
   setLangOption(lang: string) {
     switch (lang) {
       case 'es':
-        this.iconSpanishURI = './assets/i18n/icons/spain-icon-disabled.png';
+        this.iconSpanishURI = './assets/i18n/icons/spanish-icon-disabled.png';
         this.iconEnglishURI = './assets/i18n/icons/usa-icon.png';
         this.pointerSpanish = 'default';
         this.pointerEnglish = 'pointer';
         break;
       case 'en':
-        this.iconSpanishURI = './assets/i18n/icons/spain-icon.png';
+        this.iconSpanishURI = './assets/i18n/icons/spanish-icon.png';
         this.iconEnglishURI = './assets/i18n/icons/usa-icon-disabled.png';
         this.pointerEnglish = 'default';
         this.pointerSpanish = 'pointer';
