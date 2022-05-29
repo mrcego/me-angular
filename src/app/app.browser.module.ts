@@ -5,6 +5,7 @@ import {
   BrowserModule,
   BrowserTransferStateModule,
 } from "@angular/platform-browser";
+import { TranslateModule } from "@ngx-translate/core";
 
 @NgModule({
   bootstrap: [AppComponent],
@@ -13,7 +14,7 @@ import {
     BrowserModule.withServerTransition({ appId: "app-root" }),
 
     BrowserTransferStateModule,
-
+    TranslateModule,
     AppModule,
   ],
 })
