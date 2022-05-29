@@ -1,37 +1,26 @@
 {
   "left": {
     "greeting": "Cesar Gomez",
-    "role": "Frontend Developer - UI + UX + Mobile",
+    "role": "Senior Frontend Developer - UI + UX + Mobile First",
+    "subtitle": "6+ years building outstanding experiences",
     "social": [
       {
-        "icon": "facebook",
-        "url": "https://www.facebook.com/mrcego"
-      },
-      {
         "icon": "twitter",
-        "url": "https://twitter.com/mrcego"
+        "url": "https://twitter.com/CodingWithCego"
       },
       {
         "icon": "linkedin",
         "url": "https://www.linkedin.com/in/mrcego/"
-      },
-      {
-        "icon": "stack-exchange",
-        "url": "https://stackexchange.com/users/8713552/c%C3%A9sar-g%C3%B3mez?tab=accounts"
-      },
-      {
-        "icon": "download",
-        "url": "./assets/Resume_CAGH_EN.pdf"
       }
     ]
   },
   "right": {
     "about": {
-      "title": "What I am all about",
+      "title": "What about me?",
       "paragraph": [
-        "<strong>Web and mobile applications based on Javascript frameworks Frontend Developer</strong>. Expertise building interfaces from scratch and/or <i>PSD to HTML</i> mockups, letting user experiences with all features according project requeriments.",
-        "Expertise with Project Leadership, so I am able to take decision-making attitude when necessary.\nSCRUM as main agile methodology.",
-        "Use of modern tools for fast solutions development. Resources investigation and deployment for incremental code-source enhancement."
+        "<strong>I'm a frontend developer with knowledge of web and mobile-first applications development based on Javascript frameworks, specially Vue.js, Angular and Ionic</strong>. I have expertise building interfaces from scratch and/or <i>PSD/Figma/Adobe XD to HTML</i> mockups/frames, letting a nice user experiences with all features according project requeriments.",
+        "I'm a nice leader thanks to expertise with Project Leadership, so I'm able to take decision-making attitude when necessary.\nI use SCRUM as main agile methodology.",
+        "For me is important using modern and updated tools for agile development, besides the resources investigation and deployment for incremental code-source enhancement."
       ]
     },
     "expertise": {
@@ -39,28 +28,29 @@
       "paragraph": [
         {
           "header": "Continuous improvements",
-          "description": "Continuous improvements deployment prioritizing security and performance around each development stages."
+          "description": "Continuous improvements development, prioritizing security and performance every development stage."
         },
         {
           "header": "Project Management",
           "description": "Decision making attitude and leadership role in small and middle scope projects."
         },
         {
-          "header": "Investigation and good engineering practices",
-          "description": "Investigation and good practices as main aspects to develop high quality products."
+          "header": "I+D and good practices",
+          "description": "Investigation, development and good practices as main aspects to build high quality products."
         },
         {
           "header": "Mobile first",
-          "description": "Interfaces and user experiences development based on the most recent web <i>responsive design</i> standards."
+          "description": "Interfaces and user experiences based on the most recent web <i>responsive design</i> standards."
         },
         {
           "header": "Logical problems solving",
-          "description": "Rapid deployment of ideas and solutions using <i>Parallel Thinking</i> concepts."
+          "description": "Fast deployment of ideas and solutions using <i>Parallel Thinking</i> concepts."
         }
       ]
     },
     "skills": {
       "title": "Tech Skills",
+      "subtitle": "Yeah, I know it is a bad practice measuring my knowledge with percentage bars, but I have ways to demonstrate them.",
       "paragraph": [
         {
           "title": "Javascript / Typescript / JQuery",
@@ -68,14 +58,19 @@
           "icon": "./assets/skills/javascript-typescript-jquery.png"
         },
         {
-          "title": "AngularJS, Angular 2+, Ionic 2+, Wordpress",
-          "percent": "65",
-          "icon": "./assets/skills/angular-ionic.png"
+          "title": "Vue 2/3, Vuetify/Quasar, Vuex/Pinia, vue-router, vitejs",
+          "percent": "80",
+          "icon": "./assets/skills/vue.png"
         },
         {
-          "title": "VueJS 2, Vuetify, Vuex, vue-router",
-          "percent": "60",
-          "icon": "./assets/skills/vue.png"
+          "title": "Nuxt 2/3",
+          "percent": "70",
+          "icon": "./assets/skills/nuxt.png"
+        },
+        {
+          "title": "AngularJS, Angular 2+, Ionic 2+",
+          "percent": "50",
+          "icon": "./assets/skills/angular-ionic.png"
         },
         {
           "title": "HTML / HTML5",
@@ -83,8 +78,8 @@
           "icon": "./assets/skills/html5.jpg"
         },
         {
-          "title": "CSS and preproccesors (SCSS, SASS, LESS, Mixin)",
-          "percent": "50",
+          "title": "CSS and preproccesors (SCSS, SASS)",
+          "percent": "65",
           "icon": "./assets/skills/css.png"
         },
         {
@@ -93,7 +88,7 @@
           "icon": "./assets/skills/rest-soap.png"
         },
         {
-          "title": "NPM / Bower / Angular CLI",
+          "title": "NPM / Yarn / Vue CLI / Angular CLI",
           "percent": "65",
           "icon": "./assets/skills/npmjs.png"
         },
@@ -105,19 +100,29 @@
       ]
     },
     "experiences": {
-      "title": "Work experiences",
+      "title": "Work experience",
       "paragraph": [
         {
-          "time": "Febrero 2019 - Currently",
-          "role": "Web & Mobile Frontend Developer",
+          "time": "August 2021 - current",
+          "role": "Senior Frontend Developer",
+          "company": "Colegium",
+          "company_link": "https://www.colegium.com/",
+          "address": "Sta Victoria 37, Santiago, Metropolitan area, Chile",
+          "description": "Dev collab for the next generation of cloud-based educational tools with Nuxt.js, collab for Colegium Design System Ecosyste, I+D dev collab."
+        },
+        {
+          "time": "February 2019 - July 2021",
+          "role": "Senior Lead Frontend Developer",
           "company": "TISSINI",
+          "company_link": "https://tissini.com/",
           "address": "2323 NW 82nd Ave, Doral, FL 33122, USA",
-          "description": "e-commerce Web & Mobile frontend development with <strong>Vue.js 2.x</strong> to boost sales for the company. Main project, <a href='https://tissini.app' target='_blank'>TISSINI App</a>"
+          "description": "Ecommerce Web & Mobile frontend development with <strong>Vue.js 2.x</strong> to boost sales for the company. Main projects, <a href='https://tissini.app' target='_blank'>TISSINI App</a> and <a href='https://mitiendatissini.com' target='_blank'>MiTiendaTISSINI.com</a>."
         },
         {
           "time": "September 2018 - November 2018",
           "role": "Web Frontend Developer",
           "company": "4to Pixel Industria Creativa",
+          "company_link": "https://4topixel.com/",
           "address": "Bocagrande, 7th Street #4 - 115 Of #1 Yacaman Building - Cartagena",
           "description": "Web app frontend development using <strong>Angular 6+</strong> for safety and health at work management."
         },
@@ -125,14 +130,16 @@
           "time": "February 2017 - September 2017",
           "role": "Frontend Developer - IT Project Manager",
           "company": "Qué Hay Pa' Hacer",
-          "address": "Torices district, Villa Hermosa housing development, Bogotá Street #14, House 14 - Cartagena",
+          "company_link": "#",
+          "address": "Torices district, Villa Hermosa, Bogotá Street #14, House 14 - Cartagena",
           "description": "Hybrid-mobile app development using <strong>Ionic Framework 2</strong>. Web app development using <strong>Angular 2</strong>. <strong>IT Project Management</strong>."
         },
         {
           "time": "January 2016 - December 2016",
           "role": "Junior Frontend Developer",
           "company": "Zabud Technologies",
-          "address": "El Cairo housing development, 30th Street # 50A - 06 - Cartagena",
+          "company_link": "https://www.zabud.com.co/",
+          "address": "Pie de la Popa 20 Street 29C-61 - Cartagena",
           "description": "Collaboration in web solutions development using <strong>AngularJS</strong> y <strong>Wordpress</strong>."
         }
       ]
@@ -143,19 +150,19 @@
         {
           "time": "July 2014 - July 2016",
           "grade": "IT Analysis and Development Technologist",
-          "institution": "Servicio Nacional de Aprendizaje (SENA)",
+          "institution": "National Learning Service (SENA)",
           "city": "Cartagena de Indias"
         },
         {
           "time": "January 2007 - December 2011 (Until eighth semester)",
           "grade": "Systems engineering",
-          "institution": "Tecnológica de Bolivar university",
+          "institution": "Tecnologica de Bolivar university",
           "city": "Cartagena de Indias"
         },
         {
           "time": "December 2006",
           "grade": "Bachelor",
-          "institution": "Salesiano San Pedro Claver college",
+          "institution": "Salesianos San Pedro Claver",
           "city": "Cartagena de Indias"
         }
       ]
@@ -169,7 +176,7 @@
         },
         {
           "header": "Coffee",
-          "description": "A good cup of coffee motivate you to create quality code, it is the fuel of the developer."
+          "description": "A good cup of coffee motivate you to create high quality code, it is the fuel of the developer."
         },
         {
           "header": "Marvel Comics",
@@ -188,9 +195,9 @@
     "contact": {
       "title": "Contact",
       "paragraph": [
-        "<strong>Address</strong><br>San Marino, Balconies of San Marino, Tower 4 Apt 514 <br> 87th Street #77C-95 <br>Barranquilla - Atlántico.",
+        "<strong>Address</strong><br>San Fernando <br> 20th Street #83-43 <br>Cartagena - Colombia.",
         "<strong>Mobile number</strong><br>(+57) 3117889536",
-        "<strong>Email</strong><br><a href='mailto:cesar_gomez_h@hotmail.com?Subject=Reaching%20you%20for%20Dev%20labor'>cesar_gomez_h@hotmail.com</a>"
+        "<strong>Email</strong><br><a href='mailto:cesargomezh90@gmail.com?Subject=Reaching%20you%20for%20Dev%20labor'>cesargomezh90@gmail.com</a>"
       ]
     },
     "form": {
@@ -215,6 +222,6 @@
       ]
     },
     "send": "Send",
-    "footer": "Adapted template with a lot of <i class='fa fa-heart' aria-hidden='true'></i> for Angular. | Design by <a href='https://themehippo.com'>ThemeHippo</a>"
+    "footer": "Adapted template with a lot of <i class='fa fa-heart' aria-hidden='true'></i> for Angular 13 (finally!). | Design by <a href='https://themehippo.com'>ThemeHippo</a>"
   }
 }

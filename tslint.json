@@ -59,6 +59,12 @@
     "no-empty": false,
     "no-empty-interface": true,
     "no-eval": true,
+    "no-import-side-effect": [
+      true,
+      {
+        "ignore-module": "(core-js/.*|zone\\.js/.*|@angular/localize/init)$"
+      }
+    ],
     "no-inferrable-types": [
       true,
       "ignore-params"

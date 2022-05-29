@@ -3,6 +3,7 @@
     <div class="content text-center">
       <h1>{{ "left.greeting" | translate }}</h1>
       <p class="lead">{{ "left.role" | translate }}</p>
+      <p class="subtitle" [innerHTML]="'left.subtitle' | translate"></p>
       <ul class="social-icon">
         <li *ngFor="let item of 'left.social' | translate">
           <a target="_blank" [href]="item.url"
@@ -10,7 +11,7 @@
           ></a>
         </li>
       </ul>
-      <img src="./assets/colombia-icon.png" width="24px" height="24px" />
+      <img src="./assets/i18n/icons/colombia-icon.png" width="24px" height="24px" />
     </div>
     <div class="profile-img"></div>
     <app-header></app-header>

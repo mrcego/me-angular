@@ -1,27 +1,16 @@
 {
   "left": {
-    "greeting": "César Augusto Gómez Hernández",
-    "role": "Desarrollador Frontend - Interfaz + Experiencia de Usuario, Móviles",
+    "greeting": "César Gómez",
+    "role": "Desarrollador Frontend Senior - Interfaz + Experiencia de Usuario + Mobile First",
+    "subtitle": "Mas de 6 años creando herramientas y experiencias de altos estandares.",
     "social": [
       {
-        "icon": "facebook",
-        "url": "https://www.facebook.com/mrcego"
-      },
-      {
         "icon": "twitter",
-        "url": "https://twitter.com/mrcego"
+        "url": "https://twitter.com/CodingWithCego"
       },
       {
         "icon": "linkedin",
         "url": "https://www.linkedin.com/in/mrcego/"
-      },
-      {
-        "icon": "stack-exchange",
-        "url": "https://stackexchange.com/users/8713552/c%C3%A9sar-g%C3%B3mez?tab=accounts"
-      },
-      {
-        "icon": "download",
-        "url": "./assets/Resume_CAGH_ES.pdf"
       }
     ]
   },
@@ -29,9 +18,9 @@
     "about": {
       "title": "¿Quien soy y qué encontrarás en mí?",
       "paragraph": [
-        "<strong>Desarrollador de aplicaciones web y móviles basados en frameworks Javascript del lado del cliente</strong>. Experticia creando desde cero o en base a mockups existentes interfaces y experiencias de usuario que les permita utilizar todas las funcionalidades requeridas de acuerdo a sus necesidades.",
-        "Experiencia liderando proyectos, por lo que se pueden tomar posturas de tomas de decisiones cuando las circunstancias así lo ameriten.\nSCRUM como principal metodología ágil de desarrollo.",
-        "A la vanguardia en la utilización de herramientas para agilizar el proceso de desarrollo de soluciones. Investigación e implementación de mejoras incrementales en el código."
+        "<strong>Soy desarrollador de aplicaciones web y móviles basados en frameworks Javascript del lado del cliente</strong>, especialmente en Vue.js, Angular y Ionic. Puedo crear desde cero o en base a mockups existentes interfaces y experiencias de usuario que les permita utilizar todas las funcionalidades requeridas de acuerdo a sus necesidades.",
+        "Tengo experiencia liderando proyectos, por lo que puedo adoptar posturas de toma de decisiones cuando las circunstancias así lo ameriten.\nUso SCRUM como principal metodología ágil de desarrollo, así que soy muy organizado en mi trabajo.",
+        "Siempre buscaré estar a la vanguardia en la utilización de herramientas de desarrollo que ayuden a agilizar el proceso de creación de soluciones. Me especializo en la investigación e implementación de mejoras incrementales en el código."
       ]
     },
     "expertise": {
@@ -51,7 +40,7 @@
         },
         {
           "header": "Primero los móviles",
-          "description": "Desarrollo de experiencias de usuario e interfaces basados siempre en los estandares <i>responsive</i> del mercado."
+          "description": "Desarrollo de experiencias de usuario e interfaces basadas siempre en los más actuales estandares del mercado."
         },
         {
           "header": "Solución de problemas lógicos",
@@ -61,21 +50,27 @@
     },
     "skills": {
       "title": "Conocimientos Técnicos",
+      "subtitle": "Sí, sé que es una mala práctica medir mis conocimientos con barras de porcentaje, pero tengo formas de demostrarlas.",
       "paragraph": [
         {
-          "title": "Javascript / Typescript",
+          "title": "Javascript / Typescript / JQuery",
           "percent": "70",
           "icon": "./assets/skills/javascript-typescript-jquery.png"
         },
         {
-          "title": "AngularJS, Angular 2+, Ionic 2+, Wordpress",
-          "percent": "65",
-          "icon": "./assets/skills/angular-ionic.png"
+          "title": "Vue 2/3, Vuetify/Quasar, Vuex/Pinia, vue-router, vitejs",
+          "percent": "80",
+          "icon": "./assets/skills/vue.png"
         },
         {
-          "title": "VueJS 2, Vuetify, Vuex, vue-router",
-          "percent": "65",
-          "icon": "./assets/skills/vue.png"
+          "title": "Nuxt 2/3",
+          "percent": "70",
+          "icon": "./assets/skills/nuxt.png"
+        },
+        {
+          "title": "AngularJS, Angular 2+, Ionic 2+",
+          "percent": "50",
+          "icon": "./assets/skills/angular-ionic.png"
         },
         {
           "title": "HTML / HTML5",
@@ -83,22 +78,22 @@
           "icon": "./assets/skills/html5.jpg"
         },
         {
-          "title": "CSS y Preprocesadores (SCSS, SASS, LESS, Mixin)",
-          "percent": "50",
+          "title": "CSS and preproccesors (SCSS, SASS)",
+          "percent": "65",
           "icon": "./assets/skills/css.png"
         },
         {
-          "title": "Desarrollo orientado a Web Services (REST / SOAP)",
+          "title": "Service-oriented (SOA) development (REST / SOAP)",
           "percent": "55",
           "icon": "./assets/skills/rest-soap.png"
         },
         {
-          "title": "NPM / Yarn / Angular CLI / Vue CLI Services",
+          "title": "NPM / Yarn / Vue CLI / Angular CLI",
           "percent": "65",
           "icon": "./assets/skills/npmjs.png"
         },
         {
-          "title": "Git / Git Flow",
+          "title": "GIT",
           "percent": "50",
           "icon": "./assets/skills/git.png"
         }
@@ -108,16 +103,26 @@
       "title": "Experiencia Laboral",
       "paragraph": [
         {
-          "time": "Febrero 2019 - Actualmente",
+          "time": "Agosto 2021 - actualidad",
+          "role": "Senior Frontend Developer",
+          "company": "Colegium",
+          "company_link": "https://www.colegium.com/",
+          "address": "Sta Victoria 37, Santiago, Area Metropolitana, Chile",
+          "description": "Colaboración en el desarrollo de la próxima generación de herramientas educativas basadas en la nube con Nuxt.js. Colaboración en el desarrollo del Design System Ecosystem. Colaboración en laboratorios de investigación e innovación."
+        },
+        {
+          "time": "Febrero 2019 - Julio 2021",
           "role": "Web & Mobile Frontend Developer",
           "company": "TISSINI",
+          "company_link": "https://tissini.com/",
           "address": "2323 NW 82nd Ave, Doral, FL 33122, Estados Unidos",
-          "description": "Desarrollo frontend de aplicación web y mobile con <strong>Vue.js 2.x</strong> de tipo e-commerce para el impulso de ventas para la compañía. Proyecto principal, <a href='https://tissini.app' target='_blank'>TISSINI App</a>"
+          "description": "Desarrollo frontend de aplicación web y mobile con <strong>Vue.js 2.x</strong> de tipo e-commerce para el impulso de ventas para la compañía. Proyectos principales, <a href='https://tissini.app' target='_blank'>TISSINI App</a> y <a href='https://mitiendatissini.com' target='_blank'>MiTiendaTISSINI.com</a>."
         },
         {
           "time": "Septiembre 2018 - Noviembre 2018",
           "role": "Desarrollador Web Frontend",
           "company": "4to Pixel Industria Creativa",
+          "company_link": "https://4topixel.com/",
           "address": "Bocagrande, Carrera 4 #7 -115. Local 1 Edf. Yacamán - Cartagena de Indias",
           "description": "Desarrollo Frontend de aplicación web con <strong>Angular 6+</strong> para la gestión de la seguridad y la salud en el trabajo."
         },
@@ -125,6 +130,7 @@
           "time": "Febrero 2017 - Septiembre 2017",
           "role": "Desarrollador Frontend - IT Project Manager",
           "company": "Qué Hay Pa' Hacer",
+          "company_link": "#",
           "address": "Barrio Torices Urbanización Villa Hermosa Calle Bogotá Cra 14 Casa 14 - Cartagena de Indias",
           "description": "Desarrollo de aplicación móvil hibrida con <strong>Ionic Framework 2</strong>. Desarrollo de aplicación web con <strong>Angular 2</strong>. <strong>IT Project Management</strong>."
         },
@@ -132,7 +138,8 @@
           "time": "Enero 2016 - Diciembre 2016",
           "role": "Desarrollador Frontend Junior",
           "company": "Zabud Technologies",
-          "address": "Urbanización El Cairo Calle 30 G No 50ª - 06 - Cartagena de Indias",
+          "company_link": "https://www.zabud.com.co/",
+          "address": "Pie de la Popa Cra 20 29C - 61 - Cartagena de Indias",
           "description": "Colaboración en el desarrollo de soluciones web en <strong>AngularJS</strong> y <strong>Wordpress</strong>."
         }
       ]
