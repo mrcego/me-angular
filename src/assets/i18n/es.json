@@ -195,9 +195,9 @@
     "contact": {
       "title": "Datos de contacto",
       "paragraph": [
-        "<strong>Dirección</strong><br>Barrio San Marino, Balcones de San Marino Torre 4 Apto 514 <br> Calle 87#77C-95 <br>Barranquilla - Atlantico.",
+        "<strong>Dirección</strong><br>Barrio San Fernando, Calle 20 # 83 - 43 <br> Sector Medellin <br>Cartagena - Bolivar.",
         "<strong>Número Celular</strong><br>(+57) 3117889536",
-        "<strong>Email</strong><br><a href='mailto:cesar_gomez_h@hotmail.com?Subject=Contacto%20para%20Dev%20labor'>cesar_gomez_h@hotmail.com</a>"
+        "<strong>Email</strong><br><a href='mailto:cesargomezh90@gmail.com?Subject=Contacto%20para%20Desarrollador%20'>cesargomezh90@gmail.com</a>"
       ]
     },
     "form": {
@@ -222,6 +222,6 @@
       ]
     },
     "send": "Enviar",
-    "footer": "Plantilla adaptada con mucho <i class='fa fa-heart' aria-hidden='true'></i> para Angular. | Diseño por <a href='https://themehippo.com'>ThemeHippo</a>"
+    "footer": "Plantilla adaptada con mucho <i class='fa fa-heart' aria-hidden='true'></i> para Angular 13 (por fin!). | Diseño por <a href='https://themehippo.com'>ThemeHippo</a>"
   }
 }
