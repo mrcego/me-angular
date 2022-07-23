@@ -8,10 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "npx ngh --dir=dist/browser --branch=gh-pages",
+    "deploy": "npx ngh --dir=dist/me --branch=gh-pages",
     "build:server:prod": "ng run me:server && webpack --config webpack.server.config.js --progress --colors",
     "build:browser:prod": "ng build --configuration production",
-    "build:prod": "npm run build:server:prod && npm run build:browser:prod",
+    "build:prod": "npm run build:server:prod && npm run build:me:prod",
     "server": "node local.js"
   },
   "private": true,
