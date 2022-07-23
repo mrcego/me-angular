@@ -11,6 +11,10 @@
       {
         "icon": "linkedin",
         "url": "https://www.linkedin.com/in/mrcego/"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/mrcego"
       }
     ]
   },
@@ -222,6 +226,6 @@
       ]
     },
     "send": "Send",
-    "footer": "Adapted template with a lot of <i class='fa fa-heart' aria-hidden='true'></i> for Angular 13 (finally!). | Design by <a href='https://themehippo.com'>ThemeHippo</a>"
+    "footer": "Adapted template with a lot of <i class='fa fa-heart' aria-hidden='true'></i> for Angular 14. | Design by <a href='https://themehippo.com'>ThemeHippo</a>"
   }
 }

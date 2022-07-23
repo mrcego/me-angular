@@ -11,6 +11,10 @@
       {
         "icon": "linkedin",
         "url": "https://www.linkedin.com/in/mrcego/"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/mrcego"
       }
     ]
   },
@@ -222,6 +226,6 @@
       ]
     },
     "send": "Enviar",
-    "footer": "Plantilla adaptada con mucho <i class='fa fa-heart' aria-hidden='true'></i> para Angular 13 (por fin!). | Diseño por <a href='https://themehippo.com'>ThemeHippo</a>"
+    "footer": "Plantilla adaptada con mucho <i class='fa fa-heart' aria-hidden='true'></i> para Angular 14 (por fin!). | Diseño por <a href='https://themehippo.com'>ThemeHippo</a>"
   }
 }
