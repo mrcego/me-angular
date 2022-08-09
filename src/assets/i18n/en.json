@@ -55,14 +55,15 @@
     "skills": {
       "title": "Tech Skills",
       "subtitle": "Yeah, I know it is a bad practice measuring my knowledge with percentage bars, but I have ways to demonstrate them.",
+      "footnote": "...And more technologies and tools that I need more space for place here (like webpack, vitepress, Visual Studio Code, etc.) 😂",
       "paragraph": [
         {
-          "title": "Javascript / Typescript / JQuery",
+          "title": "Javascript / Typescript",
           "percent": "70",
           "icon": "./assets/skills/javascript-typescript-jquery.png"
         },
         {
-          "title": "Vue 2/3, Vuetify/Quasar, Vuex/Pinia, vue-router, vitejs",
+          "title": "Vue 2/3, Vuetify/Quasar, Vuex/Pinia, vue-router, Vite.js",
           "percent": "80",
           "icon": "./assets/skills/vue.png"
         },
@@ -84,6 +85,11 @@
         {
           "title": "CSS and preproccesors (SCSS, SASS)",
           "percent": "65",
+          "icon": "./assets/skills/tailwind.png"
+        },
+        {
+          "title": "Tailwind, UnoCSS, DaisyUI",
+          "percent": "30",
           "icon": "./assets/skills/css.png"
         },
         {
@@ -92,14 +98,32 @@
           "icon": "./assets/skills/rest-soap.png"
         },
         {
-          "title": "NPM / Yarn / Vue CLI / Angular CLI",
+          "title": "npm / yarn / pnpm / Vue CLI / Angular CLI",
           "percent": "65",
           "icon": "./assets/skills/npmjs.png"
         },
         {
-          "title": "GIT",
+          "title": "Git",
           "percent": "50",
           "icon": "./assets/skills/git.png"
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Open Source Contributions",
+      "footnote": "* Docs team member for <a href='https://github.com/orgs/vitejs/teams/docs-es/members' target='_blank'>Vite.js Organization</a>",
+      "paragraph": [
+        {
+          "icon": "./assets/img/vite.png",
+          "title": "Vite.js Spanish Docs",
+          "link": "https://github.com/vitejs/docs-es",
+          "description": "Oficial Spanish translation of Vite.js documentation *"
+        },
+        {
+          "icon": "./assets/img/vuetify.png",
+          "title": "vue-fixed-columns-vuetify-15",
+          "link": "https://github.com/mrcego/vue-fixed-columns-vuetify-15",
+          "description": "A simple directive for Vuetify 1.5. Enable sticky columns in VDataTable component"
         }
       ]
     },
@@ -226,6 +250,6 @@
       ]
     },
     "send": "Send",
-    "footer": "Adapted template with a lot of <i class='fa fa-heart' aria-hidden='true'></i> for Angular 14. | Design by <a href='https://themehippo.com'>ThemeHippo</a>"
+    "footer": "Adapted template with a lot of <i class='fa fa-heart' aria-hidden='true'></i> for Angular 14."
   }
 }

@@ -55,14 +55,15 @@
     "skills": {
       "title": "Conocimientos Técnicos",
       "subtitle": "Sí, sé que es una mala práctica medir mis conocimientos con barras de porcentaje, pero tengo formas de demostrarlas.",
+      "footnote": "...Y muchas más tecnologías y herramientas que no caben aquí por tema de espacio y para no aburrir (como webpack, vitepress, Visual Studio Code, etc.)  😂",
       "paragraph": [
         {
-          "title": "Javascript / Typescript / JQuery",
+          "title": "Javascript / Typescript",
           "percent": "70",
           "icon": "./assets/skills/javascript-typescript-jquery.png"
         },
         {
-          "title": "Vue 2/3, Vuetify/Quasar, Vuex/Pinia, vue-router, vitejs",
+          "title": "Vue 2/3, Vuetify/Quasar, Vuex/Pinia, vue-router, Vite.js",
           "percent": "80",
           "icon": "./assets/skills/vue.png"
         },
@@ -82,24 +83,47 @@
           "icon": "./assets/skills/html5.jpg"
         },
         {
-          "title": "CSS and preproccesors (SCSS, SASS)",
+          "title": "CSS y preprocesadores (SCSS, SASS)",
           "percent": "65",
           "icon": "./assets/skills/css.png"
         },
         {
-          "title": "Service-oriented (SOA) development (REST / SOAP)",
+          "title": "Tailwind, UnoCSS, DaisyUI",
+          "percent": "30",
+          "icon": "./assets/skills/tailwind.png"
+        },
+        {
+          "title": "Desarrollo basado en integración de APIs (REST / SOAP)",
           "percent": "55",
           "icon": "./assets/skills/rest-soap.png"
         },
         {
-          "title": "NPM / Yarn / Vue CLI / Angular CLI",
+          "title": "npm / yarn / pnpm / Vue CLI / Angular CLI",
           "percent": "65",
           "icon": "./assets/skills/npmjs.png"
         },
         {
-          "title": "GIT",
+          "title": "Git",
           "percent": "50",
           "icon": "./assets/skills/git.png"
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Contribuciones",
+      "footnote": "* Miembro del equipo de documentación para <a href='https://github.com/orgs/vitejs/teams/docs-es/members' target='_blank'>Vite.js como organización</a>",
+      "paragraph": [
+        {
+          "icon": "./assets/img/vite.png",
+          "title": "Documentación de Vite.js en Español",
+          "link": "https://github.com/vitejs/docs-es",
+          "description": "Traducción oficial al español de la documentación de Vite.js *"
+        },
+        {
+          "icon": "./assets/img/vuetify.png",
+          "title": "vue-fixed-columns-vuetify-15",
+          "link": "https://github.com/mrcego/vue-fixed-columns-vuetify-15",
+          "description": "Una directiva para Vuetify 1.5 que permite fijar columnas en el componente VDataTable"
         }
       ]
     },
@@ -226,6 +250,6 @@
       ]
     },
     "send": "Enviar",
-    "footer": "Plantilla adaptada con mucho <i class='fa fa-heart' aria-hidden='true'></i> para Angular 14 (por fin!). | Diseño por <a href='https://themehippo.com'>ThemeHippo</a>"
+    "footer": "Plantilla adaptada con mucho <i class='fa fa-heart' aria-hidden='true'></i> para Angular 14 (por fin!)."
   }
 }

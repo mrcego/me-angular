@@ -49,7 +49,7 @@
             <div class="mt-3" *ngFor="let item of ('right.skills.paragraph' | translate)">
               <div class="row">
                 <div class="col-md-4 col-lg-3 col-xl-2 text-center">
-                  <img [src]="item.icon" width="90px" height="60px">
+                  <img [src]="item.icon" height="50px">
                 </div>
                 <div class="col-md-8 col-lg-9 col-xl-10">
                   <span class="progress-title">{{item.title}}</span>
@@ -63,8 +63,16 @@
         </div>
       </div>
       <!--.row -->
+      <div class="row" style="margin-top: 2rem">
+        <div class="col-md-12">
+          <div class="section-title">
+            <span [innerHTML]="'right.skills.footnote' | translate"></span> 
+          </div>
+        </div>
+      </div>
     </div>
     <!-- .container-fluid -->
+    
   </section>
   <!-- .skills-wrapper -->
   <section class="section-wrapper section-experience gray-bg">
@@ -94,6 +102,34 @@
     <!-- .container-fluid -->
   </section>
   <!-- .section-experience -->
+  <!-- .section-publications -->
+  <section class="section-wrapper portfolio-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-title">
+            <h2>{{'right.portfolio.title' | translate}}</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6" *ngFor="let item of ('right.portfolio.paragraph' | translate)">
+          <a class="portfolio-item" [href]="item.link" target="_blank">
+            <div class="portfolio-thumb">
+              <img [src]="item.icon" alt="icon">
+            </div>
+            <div class="portfolio-info">
+              <h3 class="title">{{item.title}}</h3>
+              <h6 class="subtitle">{{item.description}}</h6>
+            </div>
+          </a>
+        </div>
+
+        <span [innerHTML]="'right.portfolio.footnote' | translate"></span> 
+      </div>
+    </div>
+  </section>
+  <!-- .portfolio -->
   <section class="section-wrapper section-education">
     <div class="container-fluid">
       <div class="row">
@@ -141,65 +177,6 @@
       <!-- .row -->
     </div>
   </section>
-  <!-- .section-publications -->
-  <!-- <section class="section-wrapper portfolio-section">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-title">
-            <h2>Portfolio</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <a class="portfolio-item" href="#">
-            <div class="portfolio-thumb">
-              <img src="../../assets/img/portfolio-1.jpg" alt="">
-            </div>
-            <div class="portfolio-info">
-              <h3>Creative concepts</h3>
-              <small>domain.com</small>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a class="portfolio-item" href="#">
-            <div class="portfolio-thumb">
-              <img src="../../assets/img/portfolio-2.jpg" alt="">
-            </div>
-            <div class="portfolio-info">
-              <h3>Customer focused</h3>
-              <small>domain.com</small>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a class="portfolio-item" href="#">
-            <div class="portfolio-thumb">
-              <img src="../../assets/img/portfolio-3.jpg" alt="">
-            </div>
-            <div class="portfolio-info">
-              <h3>Management methodology</h3>
-              <small>domain.com</small>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-6">
-          <a class="portfolio-item" href="#">
-            <div class="portfolio-thumb">
-              <img src="../../assets/img/portfolio-4.jpg" alt="">
-            </div>
-            <div class="portfolio-info">
-              <h3>Market research</h3>
-              <small>domain.com</small>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!-- .portfolio -->
   <section class="section-contact section-wrapper">
     <div class="container-fluid">
       <div class="row">

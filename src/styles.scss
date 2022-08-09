@@ -483,11 +483,14 @@ button:focus,
 .portfolio-item .portfolio-info h3 {
   margin: 0;
   line-height: 1;
-  color: #ffffff;
+  font-weight: 700;
+  color: #2b2b3d;
 }
 
-.portfolio-item .portfolio-info small {
-  color: #ffffff;
+.portfolio-item .portfolio-info h6 {
+  color: #2b2b3d;
+  margin-bottom:0;
+  font-size: small
 }
 
 .portfolio-item:hover .portfolio-info {
@@ -496,6 +499,7 @@ button:focus,
     transparent 0%,
     rgba(42, 84, 245, 0.5) 100%
   );
+  transition: 0.3s;
 }
 
 /*-------------------
